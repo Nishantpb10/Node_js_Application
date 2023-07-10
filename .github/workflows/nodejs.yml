@@ -64,5 +64,5 @@ jobs:
     - name: Push Docker image
       run: |
         sudo docker login -unishant@arintech.in -p ${{ secrets.DOCKER_PASSWORD }} chakde595.jfrog.io
-        sudo docker tag my-node-app:latest chakde595.jfrog.io/my-jfrog-repository/my-node-app:latest
-        sudo docker push chakde595.jfrog.io/my-jfrog-repository/my-node-app:latest
+        sudo docker tag my-node-app:latest chakde595.jfrog.io/my-jfrog-repository1-77/my-node-app:latest
+        sudo docker push chakde595.jfrog.io/my-jfrog-repository1-77/my-node-app:latest
